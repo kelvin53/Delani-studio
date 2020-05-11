@@ -16,10 +16,53 @@ $(document).ready(function(){
         $("#product p").toggle('1500');
         $("#product img").toggle('1000');
       });
+  //portfolio hover-effect
+      $("#work1").mouseover(function(){
+        $("#w1").show();
+      }).mouseout(function(){
+        $("#w1").hide();
+      });
 
+      $("#work2").mouseover(function(){
+        $("#w2").show();
+      }).mouseout(function(){
+        $("#w2").hide();
+      });
+    
+      $("#work3").mouseover(function(){
+        $("#w3").show();
+      }).mouseout(function(){
+        $("#w3").hide();
+      });
+        
+      $("#work4").mouseover(function(){
+        $("#w4").show();
+      }).mouseout(function(){
+        $("#w4").hide();
+      });
+      
+      $("#work5").mouseover(function(){
+        $("#w5").show();
+      }).mouseout(function(){
+        $("#w5").hide(); 
+      });
+        
+      $("#work6").mouseover(function(){
+      $("#w6").show();
+      }).mouseout(function(){
+       $("#w6").hide();
+      });
+      
+      $("#work7").mouseover(function(){
+        $("#w7").show();
+      }).mouseout(function(){
+        $("#w7").hide();
+    
+      });$("#work8").mouseover(function(){
+        $("#w8").show();
+      }).mouseout(function(){
+        $("#w8").hide();
+      });
 
-
-
-
-
+      
 });
