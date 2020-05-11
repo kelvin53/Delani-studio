@@ -87,4 +87,19 @@
     display: none;
     
   }
-  
+  #contacts {
+    background-image: url("../img/c_image.jpg");
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #contUs {
+    margin-right: auto;
+    margin-left: auto;
+  }
