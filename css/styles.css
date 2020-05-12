@@ -21,6 +21,9 @@
     margin-top: 5%;
     margin-bottom: 5%;
   }
+  #click :hover{
+    color: #000;
+  }
   #About {
     text-align: center;
     margin-top: 6%;
@@ -39,7 +42,9 @@
     color: white;
   }
   .col-md-4{
-    display: inline-block;
+    display: block;
+    image-rendering: inherit;
+    float: left;
   }
   #des {
     margin-right: auto;
@@ -53,6 +58,9 @@
     text-align: center;
     margin-bottom: 2%;
   
+  }
+  #portfolio h3{
+    text-align: center;
   }
   .col-md-4 h5 {
     margin-top: 5%;
@@ -101,6 +109,7 @@
     color: white;
     margin-top: 5%;
     margin-bottom: 5%;
+    background-color: lemonchiffon;
   }
   #contUs {
     background-position: center center;
@@ -132,7 +141,6 @@
   }
   form input[type="submit"] {
     color: whitesmoke;
-    background: blueviolet;
     margin-bottom: 5%;
     border-radius: 50px;
     font-size: 1.5em;

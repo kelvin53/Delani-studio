@@ -63,6 +63,23 @@ $(document).ready(function(){
       }).mouseout(function(){
         $("#w8").hide();
       });
+     
+      $("form#contUs").submit(function(event){
+        var name = $("input#name").val();
+        var email = $("input#mail").val();
+        var message = $("textarea#tt").val();
+        if ($("input#name").val() && $("input#mail").val()){
+          alert (name + ", we have received your message. Thank you for reaching out to us.");
+        }
+        else {
+          alert("Please enter your name and email!");
+        }
+        
+      });
+
+
+
+
 
       
 });
